@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Prathijna</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="profile">
+            <img src="profileimagehalf.png" alt="Profile">
+        </div>
+        <nav>
+            <a href="#home" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>HOME</span>
+            </a>
+            <a href="#about-screen" class="nav-item">
+                <i class="fas fa-user"></i>
+                <span>ABOUT</span>
+            </a>
+            <a href="#projects" class="nav-item">
+                <i class="fas fa-eye"></i>
+                <span>PROJECTS</span>
+            </a>
+            <a href="#contact" class="nav-item">
+                <i class="fas fa-envelope"></i>
+                <span>CONTACT</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="main-content">
+        <h1>I'm Prathijna.</h1>
+        <p><span class="typing-text"></span></p>  
+    </section>
+
+    <section id="about-screen">
+        <!-- Split Background -->
+        <div class="designer-bg"></div>
+        <div class="developer-bg"></div>
+
+        <div class="persona-container">
+            <img src="aboutimage.png" alt="Prathijna" class="persona-img">
+        </div>
+
+        <div class="about-grid">
+            <div class="side designer-content">
+                <h2>The<br>Designer</h2>
+                <p>I focus on visual harmony and user-centric aesthetics. Every pixel has a purpose, and every color tells a story.</p>
+                <div class="skills-list">
+                    <div>UI/UX DESIGNER</div>
+                    <div>BRAND IDENTITY</div>
+                    <div>TYPOGRAPHY</div>
+                </div>
+            </div>
+
+            <div class="side developer-content">
+                <h2>The<br>Developer</h2>
+                <p>I build robust, scalable architectures. Logic-driven development where performance meets clean, readable code.</p>
+                <div class="skills-list">
+                    <div>FRONTEND DEVELOPMENT</div>
+                    <div>PYTHON AND LOGIC</div>
+                    <div>API INTEGRATION</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+    <div class="projects-wrapper">
+        <h2 class="section-title">TECHNICAL PROFICIENCY</h2>
+        
+        <div class="skills-list">
+            <!-- Skill Rows -->
+            <div class="skill-row" style="--delay: 0.1s">
+                <span class="skill-name">WORDPRESS</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 75%;"></div></div>
+                <span class="skill-percent">75%</span>
+            </div>
+
+            <div class="skill-row" style="--delay: 0.2s">
+                <span class="skill-name">DRUPAL</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 70%;"></div></div>
+                <span class="skill-percent">70%</span>
+            </div>
+
+            <div class="skill-row" style="--delay: 0.3s">
+                <span class="skill-name">WIX</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 95%;"></div></div>
+                <span class="skill-percent">95%</span>
+            </div>
+
+            <div class="skill-row" style="--delay: 0.4s">
+                <span class="skill-name">PHOTOSHOP</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 85%;"></div></div>
+                <span class="skill-percent">85%</span>
+            </div>
+
+            <div class="skill-row" style="--delay: 0.5s">
+                <span class="skill-name">ILLUSTRATOR</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 80%;"></div></div>
+                <span class="skill-percent">80%</span>
+            </div>
+
+            <div class="skill-row" style="--delay: 0.6s">
+                <span class="skill-name">JAVASCRIPT</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 85%;"></div></div>
+                <span class="skill-percent">85%</span>
+            </div>
+
+            <div class="skill-row" style="--delay: 0.7s">
+                <span class="skill-name">HTML & CSS</span>
+                <div class="bar-container"><div class="bar-fill" style="width: 80%;"></div></div>
+                <span class="skill-percent">80%</span>
+            </div>
+        </div>
+
+        <div class="white-stats-box">
+            <div class="stat-item">
+                <span class="stat-num">11+</span>
+                <span class="stat-txt">Partners</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">55+</span>
+                <span class="stat-txt">Projects Done</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">89+</span>
+                <span class="stat-txt">Happy Clients</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">150+</span>
+                <span class="stat-txt">Meetings</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <hr>
+
+    <div class="contact-info">
+        <p><i class="fas fa-map-marker-alt"></i> Chicago, US</p>
+        <p><i class="fas fa-phone-alt"></i> Phone: +00 151515</p>
+        <p><i class="fas fa-envelope"></i> Email: prathijnam0107@mail.com</p>
+    </div>
+
+    <p class="subtitle">Let's get in touch. Send me a message:</p>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Subject" required>
+        <input type="text" placeholder="Message" required>
+        <button type="submit" class="send-btn">
+            <i class="fas fa-paper-plane"></i> SEND MESSAGE
+        </button>
+    </form>
+    </section>
+
+</body>
+</html>
